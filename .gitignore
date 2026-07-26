@@ -1,0 +1,38 @@
+# Dépendances
+node_modules/
+vendor/
+
+# Build Flutter
+mobile0/build/
+mobile0/.dart_tool/
+mobile0/.flutter-plugins
+mobile0/.flutter-plugins-dependencies
+
+# Environnement — secrets
+.env
+.env.*
+!.env.example
+
+# Fichiers générés / scripts de génération
+generate_*.py
+gescrim_memoire_extracted.txt
+rapport_pptx_extracted.txt
+youssou_niang_extracted.txt
+
+# OS
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+
+# IDE
+.vscode/
+.idea/
+*.suo
+
+# Laravel cache
+backendmemoire/bootstrap/cache/*.php
+backendmemoire/storage/logs/
+backendmemoire/public/storage
+
+# Frontend build
+nouveauteranga/dist/
